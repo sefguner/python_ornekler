@@ -1,0 +1,10 @@
+a=15 #integer tipinde bir değişken
+b="15" #string tipinde bir değişken
+c=3.15 #float tipinde bir değişken
+print(type(a))  # değişkenlerin tiplerini öğrenmek için
+class"int"
+print(type(b))
+class "str"
+print(type(c))
+class "float"
+
