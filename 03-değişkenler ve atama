@@ -3,6 +3,12 @@ print("x'in değeri.....:" + str(x))
 y = 20
 print("y = " + str(y))
 z = 30
+
 print("z = " + str(z)) # print ta + kullandığımız için değişkenleri stringe çevirdik.
 x,y,z=100,200,300  # çoklu atama yapmış oluyoruz.
 print("x=",x,"y=",y,"z=",z)
+
+a = 10
+print("a değişkeninin ilk değeri", a, "ve tipi", type(a))
+a = "ABC"
+print("a değişkeninin yeni değeri", a, "ve tipi", type(a))
