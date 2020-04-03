@@ -1,0 +1,8 @@
+sayi = 78.95
+sayi2 = sayi
+print(sayi)  #78.95
+print(round(sayi))  #79 yuvarlama işlemi yapar.Üste yuvarlar
+print(int(sayi2)) #78 kesme işlemi yapar, virgülden sonrasını keser
+sayi3 = 78.45
+print(round(sayi3))  #78 yuvarlama işlemi yapar.Alta yuvarlar
+
