@@ -4,5 +4,7 @@ class"int"
 a=str(a)
 print(type(a))
 class"string"
+a= float(a)
+print(type(a))
 #python da tipler arasında kolaylıkla dönüşüm yapabiliriz. Tam sayılar için integer,
 ondalıklı sayılar için float ve karakter dizileri için string kullanırız.
