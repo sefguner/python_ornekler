@@ -1,0 +1,17 @@
+a=23  
+b=4
+kalan=a%b   #bölümünden kalanı verir.
+bolum=a//b  #bölümü verir.
+print("{} sayısının {} sayısına bölümünden ,bölüm {},kalan{} dur.".format(a,b,bolum,kalan)) #format print içerisinde gömülü bir methottur.
+
+x=int(input("x sayısını giriniz"))   #3x+2y nin hesaplama işlemi.
+y=int(input("y sayısını giriniz"))
+z=3*x+2*y
+print("işleminin sonucu:"+str(z))
+
+saniye=int(input("değeri giriniz"))  #girilen saniyeye göre saatin ve dakikanın hesaplanması işlemi.
+saat=saniye//3600
+saniye=saniye%3600
+dakika=saniye//60
+saniye=saniye%60
+print(saat,dakika,saniye)
