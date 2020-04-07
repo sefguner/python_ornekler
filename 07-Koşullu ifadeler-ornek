@@ -1,0 +1,53 @@
+#Basit şifre uygulaması. Eşittir yerine koşullu ifadelerde == kullanıldığına dikkat ediniz.
+sifre="1234"
+a=input("şifrenizi giriniz:  ")
+if a==sifre:
+    print("hoş geldiniz")
+else:
+    print("yanlış şifre girdiniz")
+#Kullanıcı adı ve şifre sorgulama uygulaması.    
+kullaniciAdi=input("kullanıcı adınızı giriniz")
+sifre=input("şifrenizi giriniz")
+if kullaniciAdi=="admin" and sifre=="1234":
+    print("sisteme hoş geldiniz")
+elif kullaniciAdi=="admin" and sifre!="1234":
+    print("şifrenizi yanlış girdiniz")
+elif kullaniciAdi!="admin" and sifre=="1234":     #eşit değil yerine != kullanıldığına dikkat ediniz.
+    print("kullanıcı adını yanlış girdiniz")
+else:
+    print("kullanıcı adı şifrenizi yanlış girdiniz")
+#sayının çift yada tek olduğuna karar veren program     
+a=int(input("lütfen bir sayı giriniz"))
+if a%2==0:                               % işareti bize bir bölme işlemindeki kalanı verir.2 ye bölümden kalanın 0 olması sayının çift olduğunu gösterir.
+    print("girdiğiniz sayı çifttir")     # ekstra bilgi: // işareti bir bölme işleminde bölümü verir.
+else:
+    print("girdiğiniz sayı tektir")
+
+Vucüt kitle indeksi hesaplama
+
+boy=float(input("lütfen boyunuzu giriniz: 1.80 şeklinde"))  # float ondalıklı sayılar için kullanılır.Ondalıklı sayılarda . kullanılır.
+kilo=int(input("lütfen kilonuzu giriniz"))
+indeks=kilo/(boy**2)
+print("vücut indeksiniz: ",indeks)
+if indeks<18.5:
+    print("zayıfsınız")
+elif indeks >= 18.5 and indeks<=24.9:
+    print("kilonuz normal")
+elif indeks >=25 and indeks<=29.9:
+    print("fazla kilolu")
+elif indeks >=30 and indeks <=39.9:
+    print("şişman")
+elif indeks>=40:
+    print("obez")
+else:
+    print("yanlış girmiş olabilirsiniz")
+    
+# sıcaklığa göre suyun katı sıvı gaz olduğunu hesaplayan program
+derece=int(input("sıcaklığı giriniz"))
+if derece<=0:
+    print("katı",derece)
+elif derece<100:
+    print("sıvı",derece)
+else:
+    print("gaz",derece)
+
