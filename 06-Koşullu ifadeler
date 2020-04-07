@@ -1,0 +1,29 @@
+a=int(input("bir sayı giriniz")) #inputla aldığımız değerler string olduğundan integer a çeviriyoruz.
+if a>10: 
+    print("girdiğiniz sayı 10 dan büyüktür")
+if a<10:
+    print("girdiğiniz sayı 10 dan küçüktür")
+if a==10:
+    print("girdiğiniz sayı 10 dur")
+#if yapısında önemli olan şart bloğunu yazmak,şart bloğundan sonra : koymak ve girinti bırakmaktır.
+
+#şartın yanlış olması durumu için else kullanırız. if ile else aynı hizada olmalıdır.else: dan sonra girinti bırakılır ve yanlış olması
+durumu yazılır.
+a=int(input("bir sayı giriniz"))
+if a>=0:
+    print("girdiğiniz sayı 0 ya da pozitif bir sayıdır")
+else:
+    print("girdiğiniz sayı negatiftir")
+
+#else ve if yerine elif kullanırız bu sayede kodlarla başa çıkmak daha kolay olur.
+n=int(input("lüften notunuzu giriniz"))
+if n>=85:
+    print("pekiyi")
+elif n>=70:
+    print("iyi")
+elif n>=55:
+    print("orta")
+elif n>=50:
+    print("geçer")
+else:
+    print("zayıf")
